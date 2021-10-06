@@ -22,7 +22,7 @@ const PlanetProfile = () => {
 			<hr className="text-danger" />
 			<div className="row">
 				<div className="col-12">
-					<table border="0" className="text-danger fw-bold text-center mx-auto fs-5">
+					<table border="0" className="greenTable text-danger fw-bold text-center mx-auto fs-5">
 						<thead>
 							<tr>
 								<th>Name</th>

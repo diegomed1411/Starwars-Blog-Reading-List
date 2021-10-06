@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import mayTheForce from "/src/img/theForce.png";
 
 export const Footer = () => (
 	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Made with <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">4Geeks Academy</a>
-		</p>
+		<h2>
+			<span style={{ fontsize: "100px" }}>&#128170;</span> MAY THE FORCE BE WITH YOU{" "}
+			<span style={{ fontsize: "100px" }}>&#127756;</span>
+		</h2>
 	</footer>
 );

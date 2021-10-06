@@ -7,6 +7,7 @@ import { Navbar } from "./component/navbar";
 import CharacterProfile from "./views/characterProfile";
 import PlanetProfile from "./views/planetProfile";
 import { Link } from "react-router-dom";
+import { Footer } from "./component/footer";
 
 //create your first component
 const Layout = () => {
@@ -28,6 +29,7 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/">
 							<Home />
+							<Footer />
 						</Route>
 						<Route>
 							<h1>¡Página no encontrada!</h1>

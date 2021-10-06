@@ -19,3 +19,72 @@
 .deckBox {
     margin-bottom: 30px;
 }
+
+tr {
+    margin :5px;
+}
+
+td {
+    color: black;
+    margin: 5px;
+}
+
+table.greenTable {
+    font-family: Georgia, serif;
+    border: 6px solid #94840F;
+    background-color: #D4EED1;
+    width: 100%;
+    text-align: center;
+  }
+  table.greenTable td, table.greenTable th {
+    border: 1px solid #94840F;
+    padding: 3px 2px;
+  }
+  table.greenTable tbody td {
+    font-size: 13px;
+  }
+  table.greenTable tr:nth-child(even) {
+    background: #94840F;
+  }
+  table.greenTable thead {
+    background: #94840F;
+    background: -moz-linear-gradient(top, #afa34b 0%, #9e9027 66%, #94840F 100%);
+    background: -webkit-linear-gradient(top, #afa34b 0%, #9e9027 66%, #94840F 100%);
+    background: linear-gradient(to bottom, #afa34b 0%, #9e9027 66%, #94840F 100%);
+    border-bottom: 0px solid #444444;
+  }
+  table.greenTable thead th {
+    font-size: 19px;
+    font-weight: bold;
+    color: #F0F0F0;
+    text-align: left;
+    border-left: 2px solid #94840F;
+  }
+  table.greenTable thead th:first-child {
+    border-left: none;
+  }
+  
+  table.greenTable tfoot {
+    font-size: 13px;
+    font-weight: bold;
+    color: #F0F0F0;
+    background: #94840F;
+    background: -moz-linear-gradient(top, #afa34b 0%, #9e9027 66%, #94840F 100%);
+    background: -webkit-linear-gradient(top, #afa34b 0%, #9e9027 66%, #94840F 100%);
+    background: linear-gradient(to bottom, #afa34b 0%, #9e9027 66%, #94840F 100%);
+    border-top: 1px solid #94840F;
+  }
+  table.greenTable tfoot td {
+    font-size: 13px;
+  }
+  table.greenTable tfoot .links {
+    text-align: right;
+  }
+  table.greenTable tfoot .links a{
+    display: inline-block;
+    background: #FFFFFF;
+    color: #94840F;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+

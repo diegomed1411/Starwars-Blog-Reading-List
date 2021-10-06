@@ -30,19 +30,20 @@ const getState = ({ getStore, getActions, setStore }) => {
 			},
 			getPersonaje: id => {
 				const store = getStore();
-				fetch({ urlPersonaje } + id)
+				fetch(urlPersonaje + id)
 					.then(res => res.json())
 					.then(data => {
-						setStore({ personaje: data.results });
+						setStore({ personaje: data.result });
 					})
 					.catch(error => error);
+				console.log(store);
 			},
 			getPlaneta: id => {
 				const store = getStore();
-				fetch({ urlPlaneta } + id)
+				fetch(urlPlaneta + id)
 					.then(res => res.json())
 					.then(data => {
-						setStore({ planeta: data.results });
+						setStore({ planeta: data.result });
 					})
 					.catch(error => error);
 			},
